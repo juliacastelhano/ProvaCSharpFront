@@ -8,9 +8,25 @@ POST {{base_url}}/cadastrar
 Content-Type: application/json
 
 {
-  "Titulo": "Compras no Supermercado",
-  "Descricao": "1. Fazer lista de compras: pão, leite, ovos, frutas, vegetais",
+  "Titulo": "Compraaaaaaaa",
+  "Descricao": "1. Fazer UMA lista de compras: pão, leite, ovos, frutas, vegetais",
   "Status": "Não Iniciada",
   "CategoriaId": 4
 }
+
+### Buscar Tarefa ###
+
+
+### Alterar ###
+
+PATCH {{base_url}}/alterar/12
+
+
+### Listar Não Concluídas ###
+GET {{base_url}}/listarNaoConcluidas
+
+
+### Listar Concluídas
+GET {{base_url}}/listarConcluidas
+
 
